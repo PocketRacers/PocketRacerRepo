@@ -118,21 +118,12 @@ def main(*args, **kwargs):
         checkpoint = callbacks.ModelCheckpoint(saved_weight_name, monitor='val_loss', verbose=1, save_best_only=True, save_weights_only=True, mode='min')
 
         try:
-            model.load_weights('vit3d2.h5')
+            model.load_weights('racevit.h5')
         except:
             print("load failed")
 
-        model.save('vit3d2.hdf5')
-
-        converter_lite = tf.lite.TFLiteConverter.from_keras_model(model)
-        converter_lite.experimental_new_converter = True
-        converter_lite.optimizations = [tf.lite.Optimize.DEFAULT]
-        converter_lite.target_spec.supported_ops = [
-            tf.lite.OpsSet.TFLITE_BUILTINS,
-            tf.lite.OpsSet.SELECT_TF_OPS
-        ]
-        tflite_model_lite = converter_lite.convert()
-
+        model.save('racevit.hdf5')
+        
         converter = tf.lite.TFLiteConverter.from_keras_model(model)
         converter.experimental_new_converter = True
         converter.target_spec.supported_ops = [
