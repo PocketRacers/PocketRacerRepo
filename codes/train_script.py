@@ -108,7 +108,7 @@ def main(*args, **kwargs):
     training_batch_generator = Generator(np.array(train_images[:]), np.array(train_steering[:]), np.array(train_throttle[:]), kwargs['batch_size'])
     validation_batch_generator = Generator(np.array(val_images[:]), np.array(val_steering[:]), np.array(val_throttle[:]), kwargs['batch_size'])
 
-    directory = '/mnt/c334c9bc-7ae4-4ea7-84fb-6b8f5595aea2/hallways18/single_agent_red_comet/'
+    directory = "folder directory of the dataset"
     os.chdir(directory)
     with tf.device('/device:GPU:1'):
         tfboard = TensorBoard(log_dir='./logs', histogram_freq=0)
