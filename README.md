@@ -54,8 +54,9 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 - Daekyum Kim*
 
 We thank all contributors who have helped in developing and refining this platform.
+## Contact Information
 
-bibtex_citation = """
+For any queries or support, please contact [eunsang.cha@pepperdine.edu].
 ## Citation
 If you use this software in your research, please cite it as follows:
 
@@ -67,6 +68,4 @@ If you use this software in your research, please cite it as follows:
   year={2024},
   note={Submitted}
 }
-## Contact Information
 
-For any queries or support, please contact [eunsang.cha@pepperdine.edu].
