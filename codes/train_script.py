@@ -13,7 +13,6 @@ from tensorflow.keras import optimizers, callbacks
 from tensorflow.keras.callbacks import Callback, TensorBoard
 from data_utils.data_processor import load_3d_dataset
 import build_racevit
-from multiprocessing import Pool
 from math import sqrt
 import matplotlib.pyplot as plt
 
@@ -112,7 +111,7 @@ def main(*args, **kwargs):
     os.chdir(directory)
     with tf.device('/device:GPU:1'):
         tfboard = TensorBoard(log_dir='./logs', histogram_freq=0)
-        model = build_transformer3d(kwargs['width'], kwargs['height'], kwargs['depth'], kwargs['n_stacked'])
+        model = build_racevit(kwargs['width'], kwargs['height'], kwargs['depth'], kwargs['n_stacked'])
 
         stop_callbacks = callbacks.EarlyStopping(monitor='val_loss', patience=20, verbose=0, mode='min', min_delta=0)
         checkpoint = callbacks.ModelCheckpoint(saved_weight_name, monitor='val_loss', verbose=1, save_best_only=True, save_weights_only=True, mode='min')
@@ -132,11 +131,8 @@ def main(*args, **kwargs):
         ]
         tflite_model = converter.convert()
 
-        with open('vit3d2.tflite', 'wb') as f:
+        with open('racevit.tflite', 'wb') as f:
             f.write(tflite_model)
-
-        with open('vit_lite3d2.tflite', 'wb') as f:
-            f.write(tflite_model_lite)
 
         print("Start test....")
         model.load_weights(saved_weight_name)
@@ -168,25 +164,6 @@ def main(*args, **kwargs):
         print('steering rmse: ' + str(rmse))
         R2_test = r2_score(test_steering[:], model_steering_test[:])
         print('Steering R^2: ' + str(R2_test))
-
-        SMALL_SIZE = 8
-        MEDIUM_SIZE = 10
-        BIGGER_SIZE = 12
-
-        plt.rc('font', size=SMALL_SIZE)
-        plt.rc('axes', titlesize=SMALL_SIZE)
-        plt.rc('axes', labelsize=MEDIUM_SIZE)
-        plt.rc('xtick', labelsize=SMALL_SIZE)
-        plt.rc('ytick', labelsize=SMALL_SIZE)
-        plt.rc('legend', fontsize=SMALL_SIZE)
-        plt.rc('figure', titlesize=BIGGER_SIZE)
-
-        plt.hist([np.squeeze(train_steering, axis=(1,)), np.squeeze(model_steering_train, axis=(1,))], color=['r', 'b'], bins=100)
-        plt.xlim(-0.7, 0.7)
-        plt.legend(['steering_target', 'steering_predict'])
-        plt.xlabel('Steering Values')
-        plt.savefig('steering_distribution.png')
-        plt.close()
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
