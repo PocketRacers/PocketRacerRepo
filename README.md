@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-# Data Processing
+## Data Processing
 
 To use the `data_processor.py` script for preparing and processing your datasets, run the following command:
 
@@ -38,7 +38,7 @@ Modify the parameters according to your dataset's requirements:
 - **w, h, d**: Width, height, and depth of the processed images.
 - **concatenate**: Boolean flag to determine whether to concatenate data.
 - **prediction_mode**: Specifies the mode of prediction, e.g., 'linear' or 'categorical'.
-
+## Training
 To train the model using the provided scripts, you can run:
 
 ```bash
