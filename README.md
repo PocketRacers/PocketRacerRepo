@@ -22,6 +22,23 @@ pip install -r requirements.txt
 
 ## Usage
 
+# Data Processing
+
+To use the `data_processor.py` script for preparing and processing your datasets, run the following command:
+
+```bash
+python data_processor.py --n_stacked <number_of_stacked_images> --img_path <path_to_images> --csv_path <path_to_csv> --w <width> --h <height> --d <depth> --concatenate <concatenate_flag> --prediction_mode <mode>
+```
+
+Modify the parameters according to your dataset's requirements:
+
+- **n_stacked**: Number of images to stack for input data.
+- **img_path**: Path to the directory containing image files.
+- **csv_path**: Path to the CSV file containing metadata or labels.
+- **w, h, d**: Width, height, and depth of the processed images.
+- **concatenate**: Boolean flag to determine whether to concatenate data.
+- **prediction_mode**: Specifies the mode of prediction, e.g., 'linear' or 'categorical'.
+
 To train the model using the provided scripts, you can run:
 
 ```bash
