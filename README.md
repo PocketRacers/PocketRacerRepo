@@ -31,7 +31,7 @@ Modify the parameters as needed for your specific training setup.
 
 ## Features
 
-- **Model Training**: Train cutting-edge vision transformers tailored for autonomous racing.
+- **Model Training**: Train vision transformers tailored for steering prediction.
 - **Performance Metrics**: Evaluate model performance with metrics such as MAE, RMSE, and R².
 - **Customizable Training Options**: Configure training epochs, batch size, and image preprocessing through command-line arguments.
 
