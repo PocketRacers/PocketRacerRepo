@@ -55,6 +55,18 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 We thank all contributors who have helped in developing and refining this platform.
 
+bibtex_citation = """
+## Citation
+If you use this software in your research, please cite it as follows:
+
+```bibtex
+@article{PocketRacer2024,
+  title={Pocket Racer: An Accessible Platform for Multi-Agent Autonomous Racing},
+  author={Cha, Eun Sang and Chulajata, Kittimate and Wu, Sean and Choe, Junu and Laukien, Eric and Hong, Dennis and Kim, Daekyum},
+  journal={Nature Communications},
+  year={2024},
+  note={Submitted}
+}
 ## Contact Information
 
 For any queries or support, please contact [eunsang.cha@pepperdine.edu].
