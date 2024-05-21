@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Input, Flatten, Dense, Lambda, BatchNormaliz
 from tensorflow.keras import optimizers, callbacks
 from tensorflow.keras.callbacks import Callback, TensorBoard
 from data_utils.data_processor import load_3d_dataset
-from model.models import build_transformer3d
+import build_racevit
 from multiprocessing import Pool
 from math import sqrt
 import matplotlib.pyplot as plt
