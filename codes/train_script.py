@@ -90,8 +90,8 @@ def main(*args, **kwargs):
     if kwargs['n_jump'] == 0:
         kwargs['n_jump'] = kwargs['n_stacked']
 
-    saved_weight_name = './vit3d2.h5'
-    saved_file_name = './vit3d2.hdf5'.format(kwargs['n_stacked'], kwargs['n_jump'], kwargs['depth'])
+    saved_weight_name = './racevit.h5'
+    saved_file_name = './racevit.hdf5'.format(kwargs['n_stacked'], kwargs['n_jump'], kwargs['depth'])
 
     data_path = os.path.join(os.path.dirname(os.path.abspath(os.path.dirname(__file__))), 'dataset')
     img_path = os.path.join(kwargs['img_path'])
