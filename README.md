@@ -3,7 +3,7 @@
 ![final4 (1)-1](https://github.com/PocketRacers/PocketRacerRepo/assets/119138249/5c117452-3276-4f5c-b0bc-597bf2cf3c60)
 
 ## Project Description
-Pocket Racer is a platform designed for simulating and training multi-agent autonomous racing models. Leveraging advanced transformer architectures, this platform enables the study and improvement of autonomous racing strategies in educational situations.
+Pocket Racer is a platform designed for simulating and training multi-agent autonomous racing models. Leveraging advanced transformer architectures, this platform enables the study and improvement of autonomous racing strategies in robotics education.
 
 ## Installation
 
