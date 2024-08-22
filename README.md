@@ -68,7 +68,6 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 - Sean Wu
 - Junu Choe
 - Eric Laukien
-- Myron McClure
 - Dennis Hong*
 - Daekyum Kim*
 
