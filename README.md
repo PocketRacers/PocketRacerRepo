@@ -65,8 +65,8 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 - Eun Sang Cha
 - Kittimate Chulajata
-- Sean Wu
 - Junu Choe
+- Sean Wu
 - Eric Laukien
 - Dennis Hong*
 - Daekyum Kim*
