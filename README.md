@@ -66,6 +66,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## Authors and Acknowledgment
 
 - Eun Sang Cha
+- Eric Laukien
 - Kittimate Chulajata
 - Junu Choe
 - Sean Wu
@@ -82,7 +83,7 @@ If you use this software in your research, please cite it as follows:
 ```bibtex
 @article{PocketRacer2024,
   title={Pocket Racer: An Accessible Platform for Multi-Agent Autonomous Racing},
-  author={Cha, Eun Sang and Chulajata, Kittimate and Wu, Sean and Choe, Junu and Hong, Dennis and Kim, Daekyum},
+  author={Cha, Eun Sang and Laukien, Eric and Chulajata, Kittimate and Wu, Sean and Choe, Junu and Hong, Dennis and Kim, Daekyum},
   journal={Nature Communications},
   year={2024},
   note={Submitted}
