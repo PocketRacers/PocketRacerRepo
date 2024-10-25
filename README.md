@@ -1,5 +1,5 @@
 
-# Pocket Racer: An Accessible Educational Platform for Multi-Agent Autonomous Racing
+# Pocket Racer: Pocket Racer: An Open-Source, Head-to-Head Autonomous Racing Platform for AI Education
 ![final4 (1)-1](https://github.com/PocketRacers/PocketRacerRepo/assets/119138249/5c117452-3276-4f5c-b0bc-597bf2cf3c60)
 ## Abstract
 Head-to-head autonomous racing can engage undergraduate students in artificial intelligence (AI) and robotics education through the excitement of maneuvering sharp corners and overtaking opponents. In particular, the construction and programming of miniature mobile racing robots can facilitate head-to-head racing competitions for use in indoor classrooms and hallways. Unfortunately, existing racing platforms remain inaccessible for overtaking maneuvers in such confined settings because they are physically large or expensive due to the computational cost of enabling such high performance in autonomy. In an attempt to address these issues, we present Pocket Racer, an open-source, pocket-sized racing robot capable of head-to-head racing within a typical hallway or classroom. Inspired by how humans visually perceive the sequential progression of the road while driving, we propose an efficient yet effective approach to end-to-end autonomous driving. We demonstrate head-to-head autonomous racing with our Pocket Racer platforms, enabling high speed overtaking within hallways upwards of 15 km/h. Designed to be easily assembled with off the shelf components and a low-cost edge device (Raspberry Pi Zero 2 W), our Pocket Racer platform is made fully accessible through an open source website detailing build instructions. By making head-to-head autonomous racing accessible for undergraduate students, our work hopes to further artificial intelligence and robotics education.
@@ -81,7 +81,7 @@ If you use this software in your research, please cite it as follows:
 
 ```bibtex
 @article{PocketRacer2024,
-  title={Pocket Racer: An Accessible Platform for Multi-Agent Autonomous Racing},
+  title={Pocket Racer: Pocket Racer: An Open-Source, Head-to-Head Autonomous Racing Platform for AI Education},
   author={Cha, Eun Sang and Choe, Junu and Chulajata, Kittimate and Wu, Sean and Hong, Dennis and Kim, Daekyum},
   journal={IEEE Access},
   year={2024},
