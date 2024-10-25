@@ -75,7 +75,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 We thank all contributors who have helped in developing and refining this platform.
 ## Contact Information
 
-For any queries or support, please contact [eunsang.cha@pepperdine.edu].
+For any queries or support, please contact [jesse.esc.cha@gmail.com].
 ## Citation
 If you use this software in your research, please cite it as follows:
 
