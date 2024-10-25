@@ -84,7 +84,7 @@ If you use this software in your research, please cite it as follows:
 @article{PocketRacer2024,
   title={Pocket Racer: An Accessible Platform for Multi-Agent Autonomous Racing},
   author={Cha, Eun Sang and Laukien, Eric and Chulajata, Kittimate and Wu, Sean and Choe, Junu and Hong, Dennis and Kim, Daekyum},
-  journal={Nature Communications},
+  journal={IEEE Access},
   year={2024},
   note={Submitted}
 }
