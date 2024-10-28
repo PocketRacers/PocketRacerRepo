@@ -83,7 +83,7 @@ If you use this software in your research, please cite it as follows:
 @article{PocketRacer2024,
   title={Pocket Racer: An Open-Source, Head-to-Head Autonomous Racing Platform for AI Education},
   author={Cha, Eun Sang and Choe, Junu and Chulajata, Kittimate and Wu, Sean and Hong, Dennis and Kim, Daekyum},
-  journal={IEEE Access},
+  journal={Advanced Intelligent Systems},
   year={2024},
   note={Submitted}
 }
