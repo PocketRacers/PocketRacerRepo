@@ -67,6 +67,7 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 - Eun Sang Cha
 - Junu Choe
+- Vladislav E. Tsoy
 - Kittimate Chulajata
 - Sean Wu
 - Eric Laukien
@@ -83,7 +84,7 @@ If you use this software in your research, please cite it as follows:
 ```bibtex
 @article{PocketRacer2025,
   title={Pocket Racer: An Open-Source, Head-to-Head Autonomous Racing Platform for AI Education},
-  author={Cha, Eun Sang and Choe, Junu and Chulajata, Kittimate and Wu, Sean and Laukien, Eric and Hong, Dennis and Kim, Daekyum},
+  author={Cha, Eun Sang and Choe, Junu and Vladislav, E. Tsoy and Chulajata, Kittimate and Wu, Sean and Laukien, Eric and Hong, Dennis and Kim, Daekyum},
   journal={TBD},
   year={2025},
   note={Submitted}
