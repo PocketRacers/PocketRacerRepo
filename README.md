@@ -64,8 +64,6 @@ Contributions to Pocket Racer are welcome! Please consult the `CONTRIBUTING.md` 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ## Authors and Acknowledgment
-
-- Eun Sang Cha
 - Junu Choe
 - Vladislav E. Tsoy
 - Kittimate Chulajata
@@ -77,14 +75,14 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 We thank all contributors who have helped in developing and refining this platform.
 ## Contact Information
 
-For any queries or support, please contact [jesse.esc.cha@gmail.com].
+For any queries or support, please contact [daekyum@korea.ac.kr].
 ## Citation
 If you use this software in your research, please cite it as follows:
 
 ```bibtex
 @article{PocketRacer2025,
   title={Pocket Racer: An Open-Source, Head-to-Head Autonomous Racing Platform for AI Education},
-  author={Cha, Eun Sang and Choe, Junu and Vladislav, E. Tsoy and Chulajata, Kittimate and Wu, Sean and Laukien, Eric and Hong, Dennis and Kim, Daekyum},
+  author={Choe, Junu and Vladislav, E. Tsoy and Chulajata, Kittimate and Wu, Sean and Laukien, Eric and Hong, Dennis and Kim, Daekyum},
   journal={TBD},
   year={2025},
   note={Submitted}
